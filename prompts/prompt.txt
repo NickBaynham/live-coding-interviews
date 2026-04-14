@@ -1,0 +1,297 @@
+
+:::writing{variant=“standard” id=“48217”}
+You are working in an empty repository named live-coding-interviews.
+
+Build a clean, well-organized multi-language practice repository for live coding interview preparation with the following goals:
+
+Primary Goal
+
+Create a repository that allows me to practice and store live coding interview solutions in:
+	•	java/
+	•	python/
+	•	typescript/
+
+Each language folder should:
+	•	have its own runnable unit test framework
+	•	contain example interview-style solutions implemented as code under test
+	•	contain unit tests that validate the solutions
+	•	be easy to extend with new problems later
+	•	support running all tests for that language from the command line
+
+This repository is for practicing coding interview problems by implementing the solutions and validating them through automated tests.
+
+⸻
+
+High-Level Requirements
+
+Repository structure
+
+Create this top-level structure:
+
+live-coding-interviews/
+  README.md
+  .gitignore
+  java/
+  python/
+  typescript/
+
+Each language folder should contain:
+	•	source code folder
+	•	test folder
+	•	minimal setup/config files
+	•	README for that language
+	•	a consistent problem-based organization
+
+Use a problem-per-file approach where practical.
+
+⸻
+
+Problem Categories to Include
+
+Provide passing example implementations and tests for common live coding patterns in each language:
+	•	Hash maps
+	•	Arrays
+	•	String parsing
+	•	Two pointers
+	•	Stack / queue
+	•	Basic recursion
+
+These examples should reflect common interview questions and should be coded clearly, not cleverly.
+
+⸻
+
+Required Example Problems
+
+Implement the following example problems in Java, Python, and TypeScript, each with passing tests:
+	1.	Two Sum
+Given an array of integers and a target, return the indices of two numbers that add up to the target.
+	2.	Contains Duplicate
+Return true if any value appears at least twice in the array.
+	3.	Valid Anagram
+Given two strings, return true if one is an anagram of the other.
+	4.	Valid Parentheses
+Determine if a string containing ()[]{} is valid using a stack.
+	5.	Reverse String
+Reverse an array of characters in place using a two-pointer approach where appropriate for the language.
+	6.	Palindrome Check
+Determine whether a string is a palindrome after normalizing case and ignoring non-alphanumeric characters.
+	7.	Binary Search
+Search a sorted array and return the index of the target or -1.
+	8.	Recursive Fibonacci
+Implement a simple recursive Fibonacci function and test a few small values.
+	9.	Queue Using Two Stacks
+Implement a queue abstraction backed by two stacks.
+	10.	String Character Frequency
+Parse a string and return a hash map / dictionary / object containing character counts.
+
+⸻
+
+Design Principles
+
+Apply these standards:
+	•	code should be interview-friendly and readable
+	•	keep implementations simple and idiomatic for each language
+	•	avoid unnecessary framework complexity
+	•	use clear naming
+	•	tests should cover:
+	•	happy path
+	•	edge cases
+	•	invalid or empty input where appropriate
+	•	include comments sparingly, only where helpful
+	•	organize files so I can easily add more interview problems later
+
+⸻
+
+Language-Specific Requirements
+
+Python
+
+Use:
+	•	pytest
+
+Suggested structure:
+
+python/
+  README.md
+  requirements.txt
+  src/
+    arrays/
+    hash_maps/
+    recursion/
+    stacks_queues/
+    strings/
+    two_pointers/
+  tests/
+
+Requirements:
+	•	use plain Python with no unnecessary dependencies beyond pytest
+	•	make imports clean and reliable
+	•	include requirements.txt
+	•	include a simple command in README showing how to run tests:
+	•	pytest
+
+⸻
+
+Java
+
+Use:
+	•	Maven
+	•	JUnit 5
+
+Suggested structure:
+
+java/
+  README.md
+  pom.xml
+  src/
+    main/
+      java/com/example/livecoding/...
+    test/
+      java/com/example/livecoding/...
+
+Requirements:
+	•	use standard Maven layout
+	•	use JUnit 5
+	•	keep package naming consistent
+	•	include a command in README showing how to run tests:
+	•	mvn test
+
+⸻
+
+TypeScript
+
+Use:
+	•	Node.js
+	•	TypeScript
+	•	Jest or Vitest
+
+Prefer Vitest for simplicity unless there is a strong reason to use Jest.
+
+Suggested structure:
+
+typescript/
+  README.md
+  package.json
+  tsconfig.json
+  vitest.config.ts
+  src/
+  tests/
+
+Requirements:
+	•	use TypeScript cleanly
+	•	configure the test runner properly
+	•	include scripts in package.json:
+	•	test
+	•	test:watch
+	•	include a README command showing how to run tests:
+	•	npm test
+
+⸻
+
+File and Naming Strategy
+
+Use consistent naming across languages where it makes sense.
+
+For example:
+	•	two_sum
+	•	contains_duplicate
+	•	valid_anagram
+	•	valid_parentheses
+	•	reverse_string
+	•	palindrome_check
+	•	binary_search
+	•	recursive_fibonacci
+	•	queue_using_two_stacks
+	•	string_character_frequency
+
+Use idiomatic casing for each language, but preserve recognizable mapping between languages.
+
+⸻
+
+README Requirements
+
+Create:
+
+Root README.md
+
+It should explain:
+	•	the purpose of the repository
+	•	the languages included
+	•	the covered problem patterns
+	•	how to run tests in each language
+	•	how to add a new problem
+	•	how the repository is intended to support live coding practice
+
+Include a short section explaining that this repo is designed so interview solutions can be practiced and validated as unit tests.
+
+Per-language README files
+
+Each language folder should contain a short README explaining:
+	•	prerequisites
+	•	install/setup
+	•	how to run tests
+	•	where problem implementations live
+	•	where tests live
+
+⸻
+
+.gitignore Requirements
+
+Add a useful root .gitignore covering:
+	•	Python cache / virtualenv artifacts
+	•	Java build artifacts
+	•	Node modules / dist coverage artifacts
+	•	editor artifacts
+	•	OS artifacts
+
+⸻
+
+Example Expectations
+
+For each example problem:
+	•	create implementation code
+	•	create corresponding unit tests
+	•	ensure all tests pass
+	•	keep examples realistic for live coding practice
+	•	include a few good edge cases
+
+Examples of edge cases to cover where relevant:
+	•	empty arrays
+	•	empty strings
+	•	target not found
+	•	duplicate values
+	•	mismatched parentheses
+	•	strings with punctuation and spaces for palindrome parsing
+	•	minimal Fibonacci inputs like 0 and 1
+
+⸻
+
+Extensibility
+
+Design the repo so I can later add more problems easily, such as:
+	•	linked lists
+	•	trees
+	•	graphs
+	•	sliding window
+	•	intervals
+	•	dynamic programming
+
+Do not implement these now unless needed for structure, but leave the repository organized to support future expansion.
+
+⸻
+
+Final Deliverable
+
+Generate all required files and code for the repository.
+
+After generation:
+	1.	ensure all tests are configured correctly
+	2.	ensure all sample tests pass
+	3.	ensure the README files are accurate
+	4.	keep the setup lightweight and practical
+
+Where possible, choose simplicity over cleverness. This is a practice repo for live coding interviews, not a production system.
+:::
+
+add a problems.md tracker at the repo root with a checklist of completed questions by language.
+a consistent “template problem” file in each language so you can quickly add new exercises without thinking about structure.
