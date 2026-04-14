@@ -1,0 +1,257 @@
+
+Here’s a Manus research prompt designed to produce a high-quality curated study guide.
+
+⸻
+
+You are an expert technical research assistant specializing in software engineering hiring practices.
+
+Your task is to research real live coding interview questions used by major technology companies and produce a curated practice guide.
+
+The goal is to create a high-quality, realistic practice resource that reflects the types of coding problems candidates are most likely to encounter in modern technical interviews.
+
+⸻
+
+Research Objective
+
+Research commonly reported live coding interview questions from reputable sources including:
+
+• engineering blogs
+• interview experience reports
+• developer communities
+• GitHub interview prep repositories
+• technical hiring resources
+• public interview prep platforms
+
+Examples of sources to consult include:
+
+• LeetCode discussions
+• Blind
+• StackOverflow
+• GitHub interview preparation repositories
+• company engineering blogs
+• interview preparation websites
+
+Use multiple sources to validate that questions appear repeatedly in interviews.
+
+Focus on questions commonly reported from companies such as:
+
+• Google
+• Amazon
+• Meta
+• Microsoft
+• Netflix
+• Apple
+• Stripe
+• Uber
+• Airbnb
+• Databricks
+• Shopify
+
+Include companies known to hire SDETs, QA automation engineers, and backend engineers.
+
+⸻
+
+Deliverable
+
+Produce a curated practice document of the most common live coding questions, organized by category.
+
+The document should function as a structured study plan for interview preparation.
+
+⸻
+
+Required Categories
+
+Organize questions into the following categories.
+
+Arrays and Hash Maps
+
+Examples include:
+
+• Two Sum
+• Contains Duplicate
+• Top K Frequent Elements
+• Product of Array Except Self
+
+Explain:
+
+• the core concept being tested
+• typical solution strategies
+
+⸻
+
+String Processing
+
+Examples include:
+
+• Valid Anagram
+• Longest Substring Without Repeating Characters
+• String Compression
+• Palindrome detection
+
+Explain:
+
+• common techniques used
+
+⸻
+
+Two Pointer / Sliding Window
+
+Examples include:
+
+• Container With Most Water
+• Longest Substring Without Repeating Characters
+• Remove Duplicates from Sorted Array
+
+Explain:
+
+• pointer strategy patterns
+
+⸻
+
+Stack and Queue
+
+Examples include:
+
+• Valid Parentheses
+• Implement Queue Using Stacks
+• Daily Temperatures
+
+Explain:
+
+• stack/queue reasoning patterns
+
+⸻
+
+Recursion and Trees
+
+Examples include:
+
+• Maximum Depth of Binary Tree
+• Invert Binary Tree
+• Fibonacci recursion
+
+Explain:
+
+• recursion fundamentals
+
+⸻
+
+Searching and Sorting
+
+Examples include:
+
+• Binary Search
+• Merge Sorted Arrays
+• Search in Rotated Sorted Array
+
+Explain:
+
+• search strategies
+
+⸻
+
+Practical Engineering Problems
+
+Include examples often seen in non-algorithm interviews, such as:
+
+• parse a log file and extract errors
+• process a JSON payload
+• count word frequencies
+• design a small caching structure
+
+Explain what these questions evaluate.
+
+⸻
+
+SDET / Automation Coding Problems
+
+Include typical tasks such as:
+
+• writing tests for a function
+• validating API responses
+• parsing test logs
+• designing a simple test runner
+
+Explain how these differ from algorithm problems.
+
+⸻
+
+For Each Question Include
+
+For every question provide:
+	1.	Problem description
+	2.	Example input and output
+	3.	Difficulty level (easy / medium / hard)
+	4.	What interviewers are evaluating
+	5.	Key algorithm or technique
+	6.	Common mistakes candidates make
+	7.	High-level solution explanation (do NOT include full code)
+
+The goal is to help candidates understand how to approach the problem, not simply memorize solutions.
+
+⸻
+
+Identify the Most Important Questions
+
+At the end of the document include a section titled:
+
+“The 25 Most Important Live Coding Questions”
+
+Select the questions that appear most frequently across sources.
+
+Explain briefly why each is important.
+
+⸻
+
+Provide a Study Plan
+
+Create a section titled:
+
+“Two-Week Live Coding Preparation Plan”
+
+Provide a structured study schedule including:
+
+• daily problem categories
+• difficulty progression
+• review strategies
+
+The plan should be realistic for working engineers.
+
+⸻
+
+Output Style
+
+Produce a well-structured technical guide including:
+
+• clear headings
+• categorized problem lists
+• bullet points where appropriate
+• concise explanations
+
+Target length:
+
+2500–4000 words
+
+⸻
+
+Writing Style
+
+Use a tone that is:
+
+• practical
+• concise
+• instructional
+
+Avoid generic advice.
+
+Focus on patterns, strategies, and insights about how interview questions work.
+
+⸻
+
+Final Section
+
+End the document with a summary titled:
+
+“Patterns Behind Most Coding Interviews”
+
+Explain the underlying patterns behind common interview problems and how recognizing them helps candidates solve unfamiliar questions.—

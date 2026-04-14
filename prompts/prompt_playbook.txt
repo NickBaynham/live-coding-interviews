@@ -1,0 +1,272 @@
+
+Here is a Manus prompt to generate a Live Coding Interview Playbook.
+
+⸻
+
+You are an expert technical interview coach and researcher specializing in software engineering hiring practices.
+
+Your task is to research and create a Live Coding Interview Playbook — a practical guide that teaches candidates exactly how to navigate a live coding interview step by step.
+
+The goal is to produce a document that gives candidates clear communication strategies, behavioral techniques, and problem-solving workflows so they can perform confidently during a live coding session.
+
+The document should feel like a practical field manual for technical interviews, not a general career article.
+
+⸻
+
+Research Objective
+
+Research best practices used by successful candidates and recommended by interviewers for live coding interviews.
+
+Consult reputable sources including:
+
+• engineering manager blogs
+• technical hiring guides
+• developer community discussions
+• interview preparation resources
+• public engineering interview advice
+
+Focus on real-world guidance from experienced interviewers and engineers.
+
+⸻
+
+Target Audience
+
+The audience is:
+
+• experienced engineers
+• QA automation engineers / SDETs
+• backend engineers
+• developers with 5–15 years of experience
+
+Assume the reader already knows how to code but wants to perform better in the interview environment.
+
+⸻
+
+Document Goal
+
+The final document should teach candidates:
+
+• how to behave during a live coding interview
+• what to say at each stage
+• how to structure problem solving
+• how to recover when stuck
+• how to demonstrate strong engineering thinking
+
+The guide should help candidates avoid common behavioral mistakes that cause interview failure.
+
+⸻
+
+Required Sections
+
+1. How Live Coding Interviews Actually Work
+
+Explain the typical structure of a live coding interview including:
+
+• introduction phase
+• problem presentation
+• coding phase
+• discussion and optimization
+• follow-up questions
+
+Describe typical interview durations and formats.
+
+⸻
+
+2. The Mindset for Live Coding Interviews
+
+Explain the correct mindset candidates should adopt.
+
+Key principles include:
+
+• treat the interview like collaborative pair programming
+• communicate constantly
+• prioritize clarity over cleverness
+• focus on reasoning rather than memorized tricks
+
+Explain why these behaviors matter to interviewers.
+
+⸻
+
+3. The Ideal Step-by-Step Problem Solving Workflow
+
+Provide a clear framework candidates should follow during the interview.
+
+Example stages:
+	1.	Clarify the problem
+	2.	Identify constraints
+	3.	Describe the approach before coding
+	4.	Implement a simple solution
+	5.	Improve the solution
+	6.	Test the solution
+	7.	Discuss complexity
+
+Explain each stage in detail.
+
+⸻
+
+4. What to Say During Each Stage
+
+This is the most important section.
+
+Provide specific example phrases candidates can say during interviews.
+
+Examples include:
+
+Clarifying requirements
+
+Example phrases such as:
+
+“I want to confirm my understanding of the problem.”
+
+Thinking through the approach
+
+Example phrases such as:
+
+“My initial idea would be to use a hash map because lookup is constant time.”
+
+Testing the solution
+
+Example phrases such as:
+
+“Let me walk through a few edge cases to validate the logic.”
+
+Handling uncertainty
+
+Example phrases such as:
+
+“I’m considering two approaches here. Let me compare their tradeoffs.”
+
+The goal is to help candidates avoid long silent coding periods.
+
+⸻
+
+5. Handling Difficult Situations
+
+Research and explain how candidates should handle common challenges such as:
+
+• getting stuck
+• realizing the approach is wrong
+• running out of time
+• interviewer asking unexpected follow-up questions
+• performance anxiety
+
+Provide example strategies and communication techniques.
+
+⸻
+
+6. Common Mistakes Candidates Make
+
+Research typical reasons candidates fail live coding interviews.
+
+Examples include:
+
+• coding silently
+• not clarifying requirements
+• ignoring edge cases
+• writing overly complex code
+• abandoning a working solution prematurely
+
+Explain why these mistakes hurt interview performance.
+
+⸻
+
+7. Language Strategy During Interviews
+
+Explain how language choice affects performance.
+
+Discuss tradeoffs between:
+
+• Python
+• Java
+• TypeScript / JavaScript
+
+Explain how candidates should choose a language strategically.
+
+⸻
+
+8. Demonstrating Senior Engineering Thinking
+
+Explain behaviors that signal strong engineering maturity during interviews.
+
+Examples include:
+
+• discussing edge cases
+• testing the solution
+• considering performance
+• explaining tradeoffs
+• structuring code cleanly
+
+Explain how these behaviors improve interviewer perception.
+
+⸻
+
+9. A Mock Live Coding Walkthrough
+
+Provide a realistic example of a live coding interview scenario.
+
+Include:
+
+• a sample problem
+• the candidate’s reasoning process
+• example dialogue with the interviewer
+• how the candidate explains their solution
+
+The goal is to demonstrate what a strong interview performance looks like.
+
+⸻
+
+10. The Live Coding Interview Script
+
+Create a concise section titled:
+
+“The Live Coding Interview Script”
+
+This should be a short checklist candidates can remember during the interview.
+
+Example structure:
+	1.	Clarify the problem
+	2.	Describe approach
+	3.	Write simple code
+	4.	Test edge cases
+	5.	Optimize if needed
+	6.	Discuss complexity
+
+⸻
+
+Output Requirements
+
+Produce a well-structured guide with:
+
+• clear headings and sections
+• bullet points where helpful
+• example dialogue
+• concise explanations
+
+Target length:
+
+2000–3500 words
+
+⸻
+
+Writing Style
+
+Use a tone that is:
+
+• practical
+• encouraging
+• professional
+
+Avoid generic motivational language.
+
+Focus on practical techniques that candidates can apply immediately during interviews.
+
+⸻
+
+Final Section
+
+End the document with a section titled:
+
+“Day-of-Interview Checklist”
+
+Provide a simple list of the most important things candidates should remember right before starting a live coding interview.—
+

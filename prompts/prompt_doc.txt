@@ -1,0 +1,254 @@
+You are an expert technical researcher and career strategist specializing in software engineering interviews.
+
+Your task is to research and produce a comprehensive, practical document explaining how to pass live coding interviews for software engineering and SDET roles.
+
+The goal is to produce a clear, actionable guide for engineers preparing for real-world live coding interviews, not a generic overview.
+
+⸻
+
+Research Objective
+
+Research modern live coding interview practices used by software companies and produce a document that teaches a candidate:
+
+• how live coding interviews actually work
+• what interviewers are evaluating
+• how to approach problems during the interview
+• how to prepare effectively
+• common mistakes to avoid
+
+The guide should be based on real interview practices used by major tech companies and engineering organizations.
+
+Use reputable sources such as:
+
+• engineering blogs
+• interview preparation guides
+• engineering manager articles
+• developer community discussions
+• technical interview resources
+
+Examples of useful sources include:
+
+• company engineering blogs
+• interview prep sites
+• GitHub resources
+• developer forums
+• technical hiring articles
+
+Cite sources where relevant.
+
+⸻
+
+Audience
+
+The document should target:
+
+• experienced engineers
+• SDETs / automation engineers
+• backend engineers
+• developers with 5–15 years experience
+
+The reader likely knows programming well but may not have done live coding interviews recently.
+
+Focus on practical strategy and mindset rather than basic programming instruction.
+
+⸻
+
+Topics to Research and Cover
+
+1. What Live Coding Interviews Are
+
+Explain:
+
+• typical structure of live coding interviews
+• tools used (CoderPad, HackerRank, CodeSignal, shared IDEs)
+• typical duration
+• how remote interviews differ from onsite
+• differences between algorithm interviews and practical coding exercises
+
+⸻
+
+2. What Interviewers Actually Evaluate
+
+Research and explain the real evaluation criteria used by interviewers.
+
+Examples include:
+
+• problem solving ability
+• communication and thinking out loud
+• code clarity and structure
+• correctness
+• ability to handle edge cases
+• testing mindset
+• collaboration during problem solving
+
+Explain how interviewers score candidates.
+
+⸻
+
+3. Typical Live Coding Problem Types
+
+Research common categories of problems and provide examples.
+
+Include sections for:
+
+Algorithms and data structures
+• hash maps
+• arrays
+• two pointers
+• stacks / queues
+• recursion
+• sorting and searching
+
+Practical engineering problems
+• data parsing
+• API interaction
+• log processing
+• writing small utilities
+
+SDET-style challenges
+• writing automated tests
+• validating API responses
+• debugging failing tests
+• test framework design
+
+For each category provide:
+
+• example question
+• explanation of what skill it evaluates
+
+⸻
+
+4. The Ideal Problem-Solving Workflow
+
+Explain the best step-by-step approach during a live coding session.
+
+Include strategies such as:
+	1.	clarifying requirements
+	2.	discussing approach before coding
+	3.	starting with a brute force solution
+	4.	improving the solution
+	5.	testing the code
+	6.	discussing complexity
+
+Include example phrases candidates can say during interviews.
+
+⸻
+
+5. Common Mistakes Candidates Make
+
+Research and explain typical interview failures such as:
+
+• coding silently
+• jumping into coding without planning
+• ignoring edge cases
+• writing overly complex solutions
+• panicking when stuck
+• not testing their solution
+
+Explain how to avoid each mistake.
+
+⸻
+
+6. Language Strategy
+
+Explain how language choice affects interview performance.
+
+Discuss tradeoffs between:
+
+• Python
+• Java
+• TypeScript / JavaScript
+
+Explain when it is advantageous to choose one language over another in a live coding interview.
+
+⸻
+
+7. Practicing for Live Coding Interviews
+
+Provide a structured preparation strategy including:
+
+• types of problems to practice
+• recommended practice platforms
+• frequency and study methods
+• how to simulate real interview conditions
+
+Include guidance for experienced engineers who want to refresh skills quickly.
+
+⸻
+
+8. Real Interview Examples
+
+Include realistic examples of common live coding interview questions, such as:
+
+• Two Sum
+• Valid Parentheses
+• Reverse a Linked List
+• Longest Substring Without Repeating Characters
+• Parse a log file and find errors
+• Write tests for a validation function
+
+Explain what each question is designed to evaluate.
+
+⸻
+
+9. Psychological Strategies
+
+Explain techniques for staying calm and performing well under pressure.
+
+Discuss:
+
+• managing stress
+• communicating effectively
+• recovering from mistakes
+• handling interviewer hints
+• thinking out loud
+
+⸻
+
+10. A 24-Hour Preparation Plan
+
+Provide a realistic preparation strategy for someone who has an interview soon.
+
+Include:
+
+• what to review
+• how to warm up
+• practice problems
+• mental preparation
+
+⸻
+
+Output Format
+
+Produce a well-structured professional document with:
+
+• clear headings
+• sections and subsections
+• bullet points where helpful
+• example interview questions
+• example candidate responses
+
+The document should be approximately 2000–4000 words and read like a professional technical guide.
+
+Include a summary checklist at the end titled:
+
+“Live Coding Interview Success Checklist”
+
+This checklist should summarize the most important advice candidates should remember during their interview.
+
+⸻
+
+Writing Style
+
+Use a tone that is:
+
+• practical
+• professional
+• encouraging
+• direct
+
+Avoid generic motivational advice.
+
+Focus on actionable guidance backed by research.
+
+The goal is to produce a document that a candidate could read the day before an interview and significantly improve their performance.If you’d like, I can also give you a second Manus prompt that asks it to research actual interview questions used by major companies (Google, Amazon, Meta, Stripe, etc.) and build a curated practice list — that tends to produce a very powerful study resource.
