@@ -1,0 +1,43 @@
+Given an array with n non-negative integers where each integer represents the height of a virtical line on a chart
+
+Find two lines, which together on the x-axis form a container that holds the biggest amount of water. Return the area of that water.
+
+So an array [ 1, 5, 9, 3, 2, 0 ]
+
+We need to calculate the area represented by the two lines for the two largest ints in the array.
+
+We need to iterate over the array and select the two largest ints and use that data to calculate the area 
+
+We can conclude calculating the area is simple if we know the length of the two sides and width (x-axis).
+
+So essentially the problem is finding the two largest numbers.
+
+max1 = 0
+max2 = 0
+for a in array:
+  if (a > max1)
+    max2 = max1;
+    max1 = a;
+
+calculate the area:
+  if max1 == max2:
+    then we have a square and the calculation is 
+    return width + max1;
+  else
+    they are different lengths so we need to first calculate the square
+    sq = max1 * width;
+    then we calculate the triangular part
+    tria = (max(max1, max2) / 2) * width;
+    return tria + sq;
+
+Test Cases
+
+null
+[]          // returns 0
+[ 0 ]       // returns 0
+[ 0, 0]     // returns 0
+[ 0, 1]     // returns 0
+[ 0, 1, 1]  // returns a square value
+[ 10, 15, 1, 0 ]  // returns square calc + triangular calc
+[ 2, 5, 1, 9, 0, 44, 6 ]  // complex traversal of varying values
+
