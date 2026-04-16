@@ -1,0 +1,11 @@
+abcabccbabcba
+
+l:0,r:0,s:{a},c:a,m:1
+l:0,r:1,s:{ab},c:b,m:2
+l:0,r:2,s:{abc},c:c,m:3
+l:1,r:3,s:{bc},c:a,m:3
+l:2,r:4,s:{c},c:b,m:3
+l:3,r:5,s:{},c:c,m:3
+l:3,r:6,s:{c},c:c,m:3
+l:3,r:7,s:{cb},c:b,m:3
+l:3,r:8,s:{cb},c:a,m:3
